@@ -1,2 +1,3 @@
 /node_modules
-/lib/config/*.example.*
+/lib/config/dev.json
+/lib/config/example.json

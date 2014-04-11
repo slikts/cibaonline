@@ -1,6 +1,8 @@
 {
   "size": 10,
+  "height": 10,
   "interval": 100,
   "name": "Ciba Online",
-  "logLevel": "warn"
+  "logLevel": "warn",
+  "ioPort": 3000
 }
