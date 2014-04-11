@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+  <title>test</title>
+  </head>
+    <body>
+
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script>
+      window.socket = io.connect('http://localhost:3000');
+      socket.on('connect', function () {
+        socket.emit('hello', { name: 'Anonymous' }, function (data) {
+          console.log(data === 'ok');
+        });
+      });
+    </script>
+  </body>
+</html>
