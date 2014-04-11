@@ -8,10 +8,7 @@ var db = levelup('/test', {
 var World = require('./lib/world')();
 
 var world = World({
-  size: 10,
-  db: db,
-  interval: 100,
-  name: 'Ciba Online'
+  db: db
 });
 
 world.restore(world.run);
