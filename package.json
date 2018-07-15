@@ -21,15 +21,15 @@
   },
   "homepage": "https://github.com/slikts/cibaonline",
   "dependencies": {
-    "levelup": "0.18.x",
-    "socket.io": "0.9.x",
+    "levelup": "~3.1.1",
+    "socket.io": "~2.1.1",
     "es5-ext": "git+https://github.com/medikoo/es5-ext.git",
-    "tracer": "0.7.x",
-    "bunyan": "0.x.x"
+    "tracer": "~0.9.1",
+    "bunyan": "^1.8.12"
   },
   "devDependencies": {
-    "mocha": "1.x.x",
-    "should": "3.x.x",
-    "chai": "1.x.x"
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "chai": "^4.1.2"
   }
 }
